@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 //Segunda preentrega:
 /*
@@ -22,6 +23,15 @@ Se debe entregar
 Documento HTML + CSS (al menos uno)
 
 Archivo(s) JS referenciado(s) en el HTML
+=======
+//Primera preentrega:
+/*
+-Variables
+-Condicionales
+-Ciclos
+-Funciones
+-Arrays / Metodos
+>>>>>>> 5a8323e35f910438b60023f9d895ee185cfd5bf9
 
 */
 
@@ -89,4 +99,13 @@ function simuladorBodega(){
 }
 simuladorBodega();
 
+<<<<<<< HEAD
 
+=======
+// despues voy a hacerlo con forEach.
+
+
+/*hola
+como
+andás?*/
+>>>>>>> 5a8323e35f910438b60023f9d895ee185cfd5bf9
