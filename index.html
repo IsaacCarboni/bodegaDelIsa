@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -11,7 +10,7 @@
 <!--Bodega del Isa
 ....Tomo prestado del trabajo hecho en Desarrollo web Rotiseria IsaYa el html y css... modificacion en proceso! implementar Javascript.
 -->
- <header> <!--Encabezado-->
+ <!-- <header> 
      
     
                 <div>
@@ -30,8 +29,8 @@
 
 
 
-    </header>
-
+    </header> -->
+<!-- 
     <section>
            <div>
                 
@@ -43,90 +42,70 @@
                     <a href="./carpetasHtml/nosotros.html">Nosotros</a>
                 </nav>
             </div>     
-    </section>
+    </section> -->
+            <h1>
+              Bodega Del Isa
+            </h1>
+            
+            <div class="contenedor-tarjetas">
+              <div class="tarjeta">
+                <h3>
+                  Malbec
+                </h3>
+                   <p>
+                    Precio:$3500
+                   </p>
+                   <button class="btn-comprar" data-nombre="Malbec" data-precio="3500">
+                    Agregar al carrito
+                   </button>
+                  </div>
 
 
-    <main><!--Lo más importante de la página, contenido central-->
-     <div class="container my-4">
-  <div class="row justify-content-center">
-    <!-- Tarjeta malbec -->
-    <div class="col-md-6 col-lg-4 mb-4">
-      <div class="card">
-        <img src="./imagenesBodega/malbec.webp" class="card-img-top" alt="imagen-de-vino-Malbec">
-        <div class="card-body">
-          <h3 class="card-title">Malbec</h3>
-          <p class="card-text">Malbec: vino tinto suave, con aroma a ciruela y frutos rojos, muy fácil de tomar y clásico argentino.</p>
-        </div>
-      </div>
-    </div>
+                    
+              <div class="tarjeta">
+                <h3>
+                 Cabernet
+                </h3>
+                   <p>
+                    Precio:$4000
+                   </p>
+                   <button class="btn-comprar" data-nombre="Cabernet" data-precio="4000">
+                    Agregar al carrito
+                   </button>
+                  </div>
+              
+                   
+              <div class="tarjeta">
+                <h3>
+                  Merlot 
+                </h3>
+                   <p>
+                    Precio:$3200
+                   </p>
+                   <button class="btn-comprar" data-nombre="Merlot" data-precio="3200">
+                    Agregar al carrito
+                   </button>
+                  </div>
+                 </div>
 
-    <!-- Tarjeta cabernet -->
-    <div class="col-md-6 col-lg-4 mb-4">
-      <div class="card">
-        <img src="./imagenesBodega/cabernet.jpg" class="card-img-top" alt="imagen-de-vino-Cabernet">
-        <div class="card-body">
-          <h3 class="card-title">Cabernet</h3>
-          <p class="card-text">Cabernet Sauvignon:
-Vino tinto más intenso y estructurado, con notas de pimiento, frutos negros y un toque de madera. Tiene taninos firmes y un final largo. Ideal para carnes rojas y sabores fuertes.</p>
-        </div>
-      </div>
-    </div>
+                <!--Formulario para agregar vinos-->
 
-    <!-- Tarjeta merlot -->
-    <div class="col-md-6 col-lg-4 mb-4">
-      <div class="card">
-        <img src="./imagenesBodega/merlot.jpg" class="card-img-top" alt="imagen-de-vino-Merlot">
-        <div class="card-body">
-          <h3 class="card-title">Merlot</h3>
-          <p class="card-text">Merlot:
-Vino tinto suave y redondo, con notas de cereza y ciruela. Es fácil de beber, menos intenso que el Cabernet y muy versátil para acompañar comidas livianas o pastas.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+                <form id="form-vino">
+                  <input type="text" id="nombre" placeholder="Nombre del vino">
+                  <input type="number" id="precio" placeholder="Precio">
+                  <button type="submit">Agregar vino</button>
+                </form>
+                  <!--Boton para mostrar lista-->
 
+                <button id="btn-mostrar">Mostrar vinos</button>
+                <div id="lista">
 
-
-
-
-</main>
-   
-   
-   
-    <footer> <!--Raíz de página-->
-<div>
-    <h4>
-        <p>
-            Rotisería IsaYa
-        </p>
-        <div>
-            <p>
-                &copy; 2025 Todos los Derechos Reservados.
-           </p>  
-        </div>
-    </h4>
-  
-</div>
+                </div>
+                
+                
        
-    </footer>
+                
 
-
-
-
-    <script src="./main.js"></script>
-</body>
-</html>
-=======
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <title>Simulador de Bodega</title>
-</head>
-<body>
-  <h1>Simulador de ingreso y compra en una bodega</h1>
-  <p>Este simulador permite ingresar a una bodega solo si el cliente es mayor de edad y tiene al menos $3000. Luego podrá elegir entre varios vinos y realizar una compra simulada. Toda la interacción se realiza mediante consola y cuadros de diálogo.</p>
   <script src="main.js"></script>
 </body>
 </html>
->>>>>>> 5a8323e35f910438b60023f9d895ee185cfd5bf9

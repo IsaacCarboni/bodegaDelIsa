@@ -1,4 +1,4 @@
-h2, h1 {
+/* h2, h1 {
   display: flex;
   justify-content: center;
 }
@@ -9,24 +9,24 @@ form, a, .navPrincipal {
 }
 
 /*reset*/
-* {
+/* * {
   margin: 0%;
   padding: 0%;
   text-decoration: none;
-}
+} */
 
 /*Estilos Navegador Principal*/
-body {
+/* body {
   font-family: none;
   background-color: #f5d4a8;
   margin: 0;
   padding: 0;
   height: 320px;
   width: auto;
-}
+} */
 
 /*Estilos headings*/
-h1 {
+/* h1 {
   color: rgb(56, 3, 3);
   font-size: 33px;
   width: 100%;
@@ -36,11 +36,11 @@ h1 {
 
 h4 {
   font-size: 10px;
-}
+} */
 
 /*Mixins*/
 /* Estilos Anclas*/
-a {
+/* a {
   text-decoration: none;
   padding: 10px 20px;
   margin: 5px;
@@ -54,17 +54,17 @@ a {
 
 a:hover {
   background-color: rgb(232, 107, 34);
-}
+} */
 
 /*Estilos imágenes general*/
-header img { /*   @extend %flexComponentesVertical;
- text-decoration: none;
+/* header img { /*   @extend %flexComponentesVertical; */
+ /* text-decoration: none;
   width: 10rem; 
   border-radius: 10px;
   height: auto;
 
-*/
-  text-decoration: none;
+/* */ 
+  /* text-decoration: none;
   width: 10rem;
   border-radius: 10px;
   height: auto;
@@ -74,34 +74,34 @@ main img {
   width: 10rem;
 }
 
-.img {
+.img { */
   /*
     text-decoration: aquamarine;
   width: 100px;
   height: auto;
   border-radius: 5px;
   */
-  text-decoration: none;
+  /* text-decoration: none;
   width: 10rem;
   border-radius: 10px;
   height: auto;
-}
+} */
 
 /*Estilos Listas*/
-ul {
+/* ul {
   list-style-type: none;
   padding-left: 0;
-}
+} */
 
-li {
+/* li {
   font-family: "Arial", sans-serif;
   font-size: 18px;
   color: #333;
   font-weight: bold;
-}
+} */
 
 /*Estilos tarjetas*/
-.card {
+/* .card {
   background-color: #f5d4a8;
   border: 2px solid #83790b;
 }
@@ -114,15 +114,50 @@ li {
 .bg-body-tertiary {
   --bs-bg-opacity: 1;
   background-color: rgb(240, 181, 124) !important;
-}
+} */
 
-.card:hover {
+/* .card:hover {
   border-color: aqua;
-}
+} */
 
 /*Estilos Pie de Página*/
-footer {
+/* footer {
   background-color: rgb(242, 197, 160);
-}
+/* } */
 
 /*# sourceMappingURL=estilos.css.map */
+
+
+body {
+  font-family: Arial, sans-serif;
+  background: #faf3e0;
+  padding: 20px;
+}
+
+h1 {
+  color: #7b0000;
+  text-align: center;
+}
+
+.contenedor-tarjetas {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.tarjeta {
+  background: white;
+  padding: 15px;
+  width: 150px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+#lista div {
+  background: #fff;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
