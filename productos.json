@@ -1,0 +1,24 @@
+[
+
+
+    {
+
+        "id": 1,
+        "nombre": "Malbec",
+        "precio": 3500
+    },
+
+    {
+        "id": 2,
+        "nombre":"Cabernet",
+        "precio": 4000
+    },
+
+    {
+        "id": 3,
+        "nombre": "Merlot",
+        "precio": 3200
+
+    }
+
+]
